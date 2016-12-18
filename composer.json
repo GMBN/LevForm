@@ -1,0 +1,23 @@
+{
+    "name": "gmbn/levform",
+    "type": "library",
+    "description": "Module from forms to framework Levitron",
+    "keywords": ["form","levitron","module levitron"],
+    "homepage": "https://github.com/GMBN/LevForm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gian Nunes",
+            "email": "gianboschette@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LevForm\\": "src/"
+        }
+    }
+}
